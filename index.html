@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+		integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="icon" type="image/png" href="img/ipho.png">
+	<link href="https://fonts.googleapis.com/css?family=Cairo" rel="stylesheet">
+
+	<title>Cadastro de Cliente</title>
+	<link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+	<header>
+		<nav>
+<h1 class="titu"><img class="img" src="img/ipho.png"><br>IphoTec</h1>
+		</nav>
+	</header>
+	<div class="conteudo">
+
+		<form>
+
+			<div id="nome">
+
+				<h2 class="nome">Nome:</h2>
+				<input class="primeironome" type="text" name="primeiro_nome" placeholder="Primeiro Nome"><br>
+				<label class="primeirolabel">Nome</label>
+				<input class="sobrenome" type="text" name="sobre_nome" placeholder="Ultimo nome">
+				<label class="sobrenomelabel">Sobrenome</label>
+			</div>
+			
+			<div id="nome">
+			<h2 class="nome">Nascimento</h2>
+				<input class="codigo" type="text" name="dia" size="2" maxlength="2" placeholder="dd">
+				<input class="codigo" type="text" name="mes" size="2" maxlength="2" placeholder="dd">
+				<input class="codigo" type="text" name="ano" size="4" maxlength="4" placeholder="aaaa">
+			</div>
+
+			<div id="nome">
+			<h2 class="nome">Empresa</h2>
+			<input class="empresa" type="text" name="empresa" placeholder="Nome sua empresa">
+		</div>
+
+			<div id="nome">
+			<h2 class="nome">CPF</h2>
+			<input class="cpf" type="text" name="cpf" size="9" maxlength="9" placeholder="Não necessita pontuação">
+			<input class="cpf2" type="text" name="cpf2" size="2" maxlength="2" placeholder="Dois ultimos digitos">
+			</div>
+
+			<div>
+			<h2 class="nome">Endereço</h2>
+			<input class="primeironome" type="text" name="primeiro_nome" placeholder="Nome Rua"><br>
+			<label class="primeirolabel">Rua</label>
+			<input class="sobrenome" type="text" name="sobre_nome" placeholder="NºCasa">
+			<label class="sobrenomelabel">Numero</label>
+		
+			<br>
+			<input class="primeironome" type="text" name="primeiro_nome" placeholder="Sua cidade"><br>
+			<label class="primeirolabel">Cidade</label>
+			<input class="sobrenome" type="text" name="sobre_nome" placeholder="Seu estado">
+			<label class="sobrenomelabel">Estado</label>
+		</div>
+
+			<div>
+			<h2 class="nome">Telefone com DDD</h2>
+			<input class="codigo" type="text" name="codigo_area" placeholder="Seu DDD">
+			<label class="codigo_area">DDD</label>
+			<input class="number" type="text" name="phone" placeholder="Seu número">
+			<label class="numero-telefone">Telefone</label>
+		</div>
+
+			<div>
+			<h2 class="nome">Email</h2>
+			<input class="email" type="text" name="email" placeholder="Seu e-mail">
+		</div>
+
+			<div>
+			<h2 class="nome">Profissão</h2>
+			<input class="prof" type="text" name="prof" placeholder="Sua profissão">
+		</div>
+			<br>
+			<table align="right" class="cor">
+				
+				<tr>
+					<td align="right">
+						<a href="index2.html">
+							<img src="img/produto.png" widht="50" height="50">
+							<br>
+						</a>
+						Produto
+					</td>
+				</tr>
+			</table>
+
+			<div align="center">
+				<input class="btn third" type="reset" value="Cancelar" style="background-color: rgb(219, 27, 219);">
+				<input class="btn third2" type="submit" value="Cadastrar" style="background-color: pink;">
+
+				<table align="left" class="cor">
+					<tr>
+						<td align="left">
+							<a href="index.html">
+								<img src="img/cel1.png" widht="50" height="50">
+								<br>
+							</a>
+							Cliente
+							<br>
+				</table>
+
+				</td>
+			</div>
+		</form>
+
+	</div>
+
+
+</body>
+<br>
+<footer>
+	<h3><i class="fa-solid fa-copyright"></i> Copryright organizações IphoTec - Gustavo Luiz
+		<i class="fa-solid fa-registered"></i> Todos os direitos reservados
+	</h3>
+</footer>
+
+</html>

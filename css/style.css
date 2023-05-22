@@ -1,0 +1,424 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+body
+{
+	background-image: url(../img/l.jpg);
+	background-position: center;
+	background-size: cover;
+	font-family: sans-serif;
+	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.conteudo
+{
+	background-color: rgba(80, 78, 78, 0.6);
+	width: 750px;
+	margin: auto;
+	border-radius: 23px;
+}
+
+form
+{
+	padding: 10px;
+	border: 2px solid white;
+	border-radius: 23px;
+}
+
+#nome
+{
+	width: 100%;
+	height: 40px;
+}
+
+.nome
+{
+	margin-left: 25px;
+	margin-top: 30px;
+	width: 125px;
+	color:white;
+	font-size: 18px;
+	font-weight: 700;
+}
+
+.primeironome
+{
+	position: relative;
+	left: 200px;
+	top: -37px;
+	line-height: 40px;
+	border-radius: 6px;
+	padding: 0 22px;
+	font-size: 16px;
+}
+
+.sobrenome
+{
+	position: relative;
+	left: 417px;
+	top: -80px;
+	line-height: 40px;
+	border-radius: 6px;
+	padding: 0 22px;
+	font-size: 16px;
+	color: black;
+}
+
+.primeirolabel
+{
+	position: relative;
+	color: #E5E5E5;
+	text-transform: capitalize;
+	font-size: 14px;
+	left: 203px;
+	top: -45px;
+}
+
+.sobrenomelabel
+{
+	position: relative;
+	color: #E5E5E5;
+	text-transform: capitalize;
+	font-size: 14px;
+	left: 174px;
+	top: -45px;
+}
+
+.empresa
+{
+	position: relative;
+	left: 200px;
+	top: -37px;
+	line-height: 40px;
+	width: 468px;
+	border-radius: 6px;
+	padding: 0 22px;
+	font-size: 16px;
+	color: black;
+}
+
+.prof
+{
+	position: relative;
+	left: 200px;
+	top: -37px;
+	line-height: 40px;
+	width: 468px;
+	border-radius: 6px;
+	padding: 0 22px;
+	font-size: 16px;
+	color: black;
+
+}
+
+.cpf
+{
+	position: relative;
+	left: 200px;
+	top: -37px;
+	line-height: 40px;
+	width: 200px;
+	border-radius: 6px;
+	padding: 0 22px;
+	font-size: 16px;
+	color: black;
+
+}
+.cpf2
+{
+	position: relative;
+	left: 200px;
+	top: -37px;
+	line-height: 40px;
+	width: 100px;
+	border-radius: 6px;
+	padding: 0 22px;
+	font-size: 16px;
+	color: black;
+
+}
+.email
+{
+	position: relative;
+	left: 200px;
+	top: -37px;
+	line-height: 40px;
+	width: 468px;
+	border-radius: 6px;
+	padding: 0 22px;
+	font-size: 16px;
+	color: black;
+
+}
+
+.codigo
+{
+	position: relative;
+	left: 200px;
+	top: -37px;
+	line-height: 40px;
+	width: 95px;
+	border-radius: 6px;
+	padding: 0 22px;
+	font-size: 16px;
+	color: black;
+}
+
+.number
+{
+	position: relative;
+	left: 200px;
+	top: -37px;
+	line-height: 40px;
+	width: 280px;
+	border-radius: 6px;
+	padding: 0 22px;
+	font-size: 16px;
+	color: black;
+}
+
+.codigo_area
+{
+	position: relative;
+	color: #E5E5E5;
+	text-transform: capitalize;
+	font-size: 16px;
+	left: 54px;
+	top: -1px;
+}
+
+.numero-telefone
+{
+	position: relative;
+	color: #E5E5E5;
+	text-transform: capitalize;
+	font-size: 16px;
+	left: -130px;
+	top: -1px;
+}
+
+.opcoes
+{
+	position: relative;
+	left: 200px;
+	top: -37px;
+	line-height: 40px;
+	width: 515px;
+	height: 40px;
+	border-radius: 6px;
+	padding: 0 22px;
+	font-size: 16px;
+	color: black;
+	outline: none;
+	overflow: hidden;
+
+}
+
+.opcoes option
+{
+	font-size: 20px;
+
+}
+
+#nivel
+{
+	margin-left: 25px;
+	color: white;
+	font-size: 18px;
+
+}
+
+.radio
+{
+	display:inline-block;
+	padding-right: 0px;
+	font-size: 25px;
+	margin-left: 25px;
+	margin-top: 15px;
+	color: white;
+
+}
+
+.radio input
+{
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	cursor: pointer;
+	outline: none;
+}
+
+.but
+{
+	margin: 20px 0px 0px 20px;
+	border-radius: 12px;
+	border: 2px solid #266473;
+	padding: 14px 50px;
+	outline: none;
+	color: white;
+	cursor: pointer;
+	transition: 0.25px;
+}
+.but2
+{
+	background-color: #3BAF9F;
+	display:block;
+	margin: 20px 0px 0px 20px;
+	text-align: center;
+	border-radius: 12px;
+	border: 2px solid #266473;
+	padding: 14px 50px;
+	outline: none;
+	color: white;
+	cursor: pointer;
+	transition: 0.25px;
+}
+
+button:hover
+{
+	background-color: red;
+}
+
+.third {
+	border-color: rgb(185, 119, 185);
+	color: #fff;
+	box-shadow: 0 0 40px 40px rgb(224, 111, 224) inset, 0 0 0 0 white;
+	-webkit-transition: all 150ms ease-in-out;
+	transition: all 150ms ease-in-out;
+	margin: 20px 0px 0px 20px;
+	border-radius: 12px;
+	border: 2px solid black;
+	padding: 14px 50px;
+	outline: none;
+	color: white;
+	cursor: pointer;
+	transition: 0.25px;
+  }
+
+  .third2 {
+	border-color: rgb(241, 170, 224);
+	color: #fff;
+	box-shadow: 0 0 40px 40px rgb(226, 132, 148) inset, 0 0 0 0 #3498db;
+	-webkit-transition: all 150ms ease-in-out;
+	transition: all 150ms ease-in-out;
+	margin: 20px 0px 0px 20px;
+	border-radius: 12px;
+	border: 2px solid black;
+	padding: 14px 50px;
+	outline: none;
+	color: white;
+	cursor: pointer;
+	transition: 0.25px;
+  }
+
+  .third:hover {
+	box-shadow: 0 0 10px 0 black inset, 0 0 10px 4px purple;
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.9);
+  }
+  .third2:hover {
+	box-shadow: 0 0 10px 0 black inset, 0 0 10px 4px rgb(214, 108, 125);
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(1.2);
+  }
+
+  td{
+	text-align: center;
+  }
+
+  footer{
+    text-align: center;
+    background-color: purple;
+    height: 25px;
+    bottom: 0;
+	color: white;
+	border: 1px solid white;
+	border-radius: 15px;
+}
+
+.cor{
+	color: white;
+	filter: opacity(0.3) drop-shadow(0 0 0 white);
+}
+
+.intro{
+    border: 2px solid white;
+    text-align: center;
+    margin-top: 2px;
+    border-radius: 26px;
+	color: white;
+	
+}
+
+.img{
+	border:5px solid white;
+	width: 7%;
+	padding: left;
+	top:5px;
+	border-radius: 25px;
+	position: relative;
+}
+
+.titu{
+	text-align: center;
+	color: white;
+	font-size: 60px;
+	font-family: 'Courier New', Courier, monospace;
+}
+
+/*Codigos acima da page 1*/
+
+body{
+	background-color: white;
+}
+
+.titulo{
+	text-align: center;
+	color: white;
+	font-family: 'Courier New', Courier, monospace;
+}
+
+legend{
+	text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+	html{
+		width: 100%;
+	}
+
+	body{
+		width: 100%;
+	}
+
+	footer{
+		width: 100%;
+	}
+
+	nav{
+		width:100%;
+	}
+
+	.titu{
+		font-size: 45px;
+	}
+
+	.img{
+		width: 30%;
+	}
+	
+	form{
+		width: 100%;
+		text-align: left;
+	}
+
+	div{
+		width: 100%;
+	}
+}
